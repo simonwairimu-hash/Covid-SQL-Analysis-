@@ -5,7 +5,7 @@ This project showcases my ability to clean, analyze, and extract insights from g
 Objective:
 To explore COVID-19 data using SQL and create meaningful, interactive visualizations in Tableau to support data-driven decision-making.
 
-Key Tasks:
+# Key Tasks:
 
 ✅ Cleaning and transforming raw COVID-19 datasets
 ✅ Performing exploratory SQL analysis to answer critical questions
