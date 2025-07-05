@@ -8,9 +8,13 @@ To explore COVID-19 data using SQL and create meaningful, interactive visualizat
 # Key Tasks:
 
 ✅ Cleaning and transforming raw COVID-19 datasets
+
 ✅ Performing exploratory SQL analysis to answer critical questions
+
 ✅ Calculating death rates, infection percentages, and vaccination rates
+
 ✅ Identifying countries/regions most affected by the pandemic
+
 ✅ Preparing datasets for Tableau dashboard development
 
 ## 📁 Data Sources
