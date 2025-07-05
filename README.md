@@ -37,22 +37,24 @@ Data Cleaning & Casting — To ensure data types are consistent for calculations
 The project includes well-structured SQL scripts to:
 
 ✔ Calculate global totals for cases, deaths, and death percentages
+
 ✔ Identify locations with the highest death counts excluding global aggregates
+
 ✔ Analyze infection rates as a percentage of population by location
+
 ✔ Track daily vaccination progress using window functions
+
 ✔ Prepare datasets optimized for Tableau visualizations
 
 Example SQL Techniques Used:
 
-sql
-Copy
-Edit
-SELECT Location, Population, 
+# sql
+**SELECT Location, Population, 
     MAX(total_cases) AS HighestInfectionCount,  
     MAX(total_cases/population) * 100 AS PercentPopulationInfected
 FROM PORTFOLIOPROJECT..CovidDeaths$
 GROUP BY Location, Population
-ORDER BY PercentPopulationInfected DESC;
+ORDER BY PercentPopulationInfected DESC;*
 ## 📊 Tableau Dashboard Insights
 Tableau Visualizations Include:
 
